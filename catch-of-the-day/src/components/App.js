@@ -8,11 +8,11 @@ class App extends React.Component {
         return (
             <div className="catch-of-the-day">
                 <div className="menu">
-                    <Header />
+                    <Header tagline="Fresh Seafood Market"/>
+                    <Header tagline="My Jirachi is better then you unlawful POS,"/>
                 </div>
                 <Order />
                 <Inventory />
-                {/* <p>Lurantis is owned by Mia, who happened to catch it on accident because the pokemon looks like a flower.</p> */}
             </div>
         )
     }

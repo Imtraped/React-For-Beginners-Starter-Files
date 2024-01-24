@@ -1,6 +1,6 @@
 import React from "react"
 
-class App extends React.Component {
+class Header extends React.Component {
     render() {
         return (
             <header className="top">
@@ -11,11 +11,11 @@ class App extends React.Component {
                     </span>
                     Day</h1>
                 <h3 className="tagline">
-                    <span>Fresh Daily</span>
+                    <span>{ this.props.tagline }</span>
                 </h3>
             </header>
         )
     }
 };
 
-export default App;
+export default Header;
